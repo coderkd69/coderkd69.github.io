@@ -1,5 +1,5 @@
-var end = new Date('09/08/2017 12:00 AM');
-var animEndTime = new Date('09/09/2017 12:00 AM');
+var end = new Date('09/09/2017 12:00 AM');
+var animEndTime = new Date(end.getTime() + 60 * 60 * 24 * 1000);
 var _second = 1000;
 var _minute = _second * 60;
 var _hour = _minute * 60;
