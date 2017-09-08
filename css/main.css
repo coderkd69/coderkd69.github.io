@@ -1,16 +1,16 @@
 @font-face {
-   font-family: 'lovefont' ;
-   src: url('../fonts/FONTLOVE.ttf') format('truetype');
+   font-family: 'font' ;
+   src: url('../fonts/terminus.ttf') format('truetype');
 }
 
 @font-face {
-   font-family: 'lovefont2' ;
-   src: url('../fonts/WORDSOFLOVE.ttf') format('truetype');
+   font-family: 'font2' ;
+   src: url('../fonts/terminusb.ttf') format('truetype');
 }
 
 @font-face {
-   font-family: 'lovefont3' ;
-   src: url('../fonts/AffectionatelyYours.ttf') format('truetype');
+   font-family: 'font3' ;
+   src: url('../fonts/terminusi.ttf') format('truetype');
 }
 
 html,body{
@@ -20,19 +20,29 @@ html,body{
 }
 
 .countdownmain{
-    font-size: 45px;
+    font-size: 35px;
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    font-family: 'lovefont3', san-serif;
+    font-family: 'font', san-serif;
     visibility: hidden;
+    min-width: 600px;
+    min-height: 300px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url("../images/term.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
 }
 
 #countdown{
-    color: #de0000;
-    font-size: 60px;
-    font-family: 'lovefont', san-serif;
+    color: #00de00;
+    font-size: 50px;
+    font-family: 'font2', san-serif;
     /*font-weight: bold;*/
 }
 
